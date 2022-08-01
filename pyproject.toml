@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "starlette-app"
+version = "0.1.0"
+description = "create an async api with starlette"
+authors = ["Antonio Gabriel <antoniocamposgabriel@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+#[tool.poetry.dev-dependencies]
+starlette = "^0.20.4"
+uvicorn = "^0.18.2"
+autopep8 = "^1.6.0"
+pytest = "^7.1.2"
+requests = "^2.28.1"
+orm = "^0.3.1"
+databases = "^0.6.0"
+aiosqlite = "^0.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
